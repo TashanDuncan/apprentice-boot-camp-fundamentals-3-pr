@@ -6,7 +6,7 @@ import { Vehicle } from '../vehicle';
 */
 class DummyTaxCalculator extends TaxCalculator {
   constructor() {
-    super(2023);
+    super(2019);
   }
 
   calculateTax(vehicle: Vehicle) {
