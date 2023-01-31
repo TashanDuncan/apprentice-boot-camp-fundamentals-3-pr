@@ -5,7 +5,7 @@ const { TaxCalculator } = require('../tax-calculator');
 */
 let DummyTaxCalculator = class DummyTaxCalculator extends TaxCalculator {
   constructor() {
-    super();
+    super(2019);
   }
   calculateTax(vehicle) {
     return -1;
